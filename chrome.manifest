@@ -1,0 +1,2 @@
+content	ftstrader	content/
+overlay	chrome://browser/content/browser.xul	chrome://ftstrader/content/FTSTrader.xul

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<overlay id="FTSTrader-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="FTSTrader.js"/>
+  <script type="application/x-javascript" src="FTSTraderReader.js"/>
+  <script type="application/x-javascript" src="FTSObjects.js"/>
+  <script type="application/x-javascript" src="FTSComms.js"/>
+</overlay>
