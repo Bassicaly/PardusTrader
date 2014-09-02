@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "PardusTrader",
+  "description": "Client-side scripts for the Pardus Trader database",
+  "version": "1.0",
+
+  "permissions": [
+    "*://*.pardus.at/*"
+  ],
+  "background": [
+  {
+    "scripts": ["FTSTrader.js"],
+	"persistent": true
+  }
+  ],
+  "content_scripts": [
+	{
+		"matches": ["http://*.pardus.at/*","https://*.pardus.at/*"],
+		"js": ["FTSComms.js","FTSObjects.js","FTSTraderReader.js"]
+	}
+	]
+}
